@@ -39,9 +39,11 @@ import { PersonalInformationComponent } from './personal-information/personal-in
 import { FeedbackComponent } from './feedback/feedback.component';
 import { PackageListComponent } from './package-list/package-list.component';
 import { PackageDetailsComponent } from './package-details/package-details.component';
+
 import { OwnerConfirmationComponent } from './owner-confirmation/owner-confirmation.component';
 import { OwnerCancelComponent } from './owner-cancel/owner-cancel.component';
 import { OwnerUpdateComponent } from './owner-update/owner-update.component';
+
 
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthInterceptor } from './Authentication/auth.interceptor';
@@ -67,13 +69,19 @@ import { AuthInterceptor } from './Authentication/auth.interceptor';
 		OwnerLeaseComponent,
 		PaymentDetailsComponent,
 		PersonalInformationComponent,
+
       	FeedbackComponent,
       	PackageListComponent,
       	PackageDetailsComponent,
       	OwnerConfirmationComponent,
       	OwnerCancelComponent,
       	OwnerUpdateComponent
-   ],
+
+		FeedbackComponent,
+		PackageListComponent,
+		PackageDetailsComponent,
+	],
+
 	imports: [
 		BrowserModule,
 		AppRoutingModule,

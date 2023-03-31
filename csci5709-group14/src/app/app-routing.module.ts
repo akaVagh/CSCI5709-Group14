@@ -16,10 +16,12 @@ import { PackageListComponent } from './package-list/package-list.component';
 import { PaymentDetailsComponent } from './payment-details/payment-details.component';
 import { PersonalInformationComponent } from './personal-information/personal-information.component';
 import { SignupComponent } from './signup/signup.component';
+
 import { OwnerConfirmationComponent } from './owner-confirmation/owner-confirmation.component';
 import { OwnerCancelComponent } from './owner-cancel/owner-cancel.component';
 import { OwnerUpdateComponent } from './owner-update/owner-update.component';
 import { FeedbackConfirmationComponent } from './feedback/feedback-confirmation/feedback-confirmation.component';
+
 
 const routes: Routes = [
 	{ path: '', component: HomepageComponent },
