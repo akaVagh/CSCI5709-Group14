@@ -17,6 +17,12 @@ import { PaymentDetailsComponent } from './payment-details/payment-details.compo
 import { PersonalInformationComponent } from './personal-information/personal-information.component';
 import { SignupComponent } from './signup/signup.component';
 
+import { OwnerConfirmationComponent } from './owner-confirmation/owner-confirmation.component';
+import { OwnerCancelComponent } from './owner-cancel/owner-cancel.component';
+import { OwnerUpdateComponent } from './owner-update/owner-update.component';
+import { FeedbackConfirmationComponent } from './feedback/feedback-confirmation/feedback-confirmation.component';
+
+
 const routes: Routes = [
 	{ path: '', component: HomepageComponent },
 	{ path: 'careers', component: CruiseCareersComponent },
@@ -41,6 +47,10 @@ const routes: Routes = [
 	{ path: 'feedback', component: FeedbackComponent },
 	{ path: 'packagelist', component: PackageListComponent },
 	{ path: 'packagedetails', component: PackageDetailsComponent },
+	{ path: 'ownerconfirmation', component: OwnerConfirmationComponent},
+	{ path: 'ownerCancel', component: OwnerCancelComponent},
+	{ path: 'ownerUpdate', component: OwnerUpdateComponent},
+	{ path: 'feedbacktaken', component: FeedbackConfirmationComponent},
 ];
 
 RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' });
